@@ -114,7 +114,16 @@
 @media(max-width:1200px) {
     .switch {
         position: fixed;
-        bottom: 0;
+        bottom: 30px;
+        top: unset;
+        z-index: 3;
+    }
+}
+
+@media(max-width:537px) {
+    .switch {
+        position: fixed;
+        bottom: 60px;
         top: unset;
         z-index: 3;
     }

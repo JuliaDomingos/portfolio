@@ -69,21 +69,20 @@ body.dark-mode h2 {
     color: var(--quaternary);
 }
 
-
-.dark-mode .swiper .design img,
-.dark-mode .swiper .video img {
-    border-radius: 30px;
-    box-shadow: -3px 3px 3px #0B3659;
-    margin: 10px 5px;
-    aspect-ratio: 6/5;
-}
-
 .design .swiper img,
 .video .swiper img {
     border-radius: 30px;
     box-shadow: -3px 3px 3px grey;
     margin: 10px 5px;
     aspect-ratio: 6/5;
+}
+
+.dark-mode .design .swiper img,
+.dark-mode .video .swiper img {
+    border-radius: 30px;
+    box-shadow: -3px 3px 3px #0B3659;
+    margin: 10px 5px;
+    /* aspect-ratio: 6/5; */
 }
 
 .icons {

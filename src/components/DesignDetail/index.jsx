@@ -27,8 +27,8 @@ export const DesignDetail = () => {
             <Header />
             <main className="design sobre pb-5">
                 <Section content="container" conteudo={
-                    <div className="project-detail row">
-                        <div className="col-md-4 py-5">
+                    <div className="project-detail row py-5">
+                        <div className="col-md-4">
                             <h1 className='mb-0'>
                                 <span>
                                     {post.title}
@@ -40,7 +40,7 @@ export const DesignDetail = () => {
                                 </span>
                             </h2>
                         </div>
-                        <div className="col-md-8 py-5">
+                        <div className="col-md-8">
                             <p>{post.description}</p>
                         </div>
                         <div className="photos">

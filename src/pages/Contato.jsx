@@ -33,8 +33,8 @@ export const Contato = () => {
             <Header />
             <main className="contato">
                 <Section content="container" conteudo={
-                    <div className="row">
-                        <div className="col-md-6 py-5">
+                    <div className="row py-5">
+                        <div className="col-md-6">
                             <h1 className="mb-0">Tem algum projeto legal?</h1>
                             <h2>
                                 Me manda um <span>E-mail!</span>
@@ -51,7 +51,7 @@ export const Contato = () => {
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <form ref={form} className="py-5" onSubmit={sendEmail}>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div className="d-flex flex-column form-group">
                                     <label className="mb-0" htmlFor="form_name">Nome*</label>
                                     <input id="form_name" name="form_name" className="form-control" type="text" required />

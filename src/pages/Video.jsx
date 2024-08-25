@@ -11,11 +11,11 @@ export const Video = () => {
             <Header />
             <main className="video pb-5">
                 <Section content="container" conteudo={
-                    <div className="row">
-                        <div className="col-md-4 py-5">
+                    <div className="row py-5">
+                        <div className="col-md-4">
                             <h1><span>Edição de vídeo</span></h1>
                         </div>
-                        <div className="col-md-8 py-5">
+                        <div className="col-md-8">
                             <p>
                                 Neste espaço, você verá uma amostra dos meus projetos de captura e edição de vídeo. Em cada um, tive o intuito de contar uma narrativa de forma breve e delicada para cativar o espectador. Navegue pelos vídeos e veja como posso contribuir para o seu próximo projeto.
                             </p>
