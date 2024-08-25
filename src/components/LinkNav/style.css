@@ -1,0 +1,121 @@
+header .menu li {
+    display: inline-flex;
+    height: 80px;
+    line-height: 80px;
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    padding: 0;
+}
+
+header .menu li a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 100%;
+    font-size: 30px;
+    color: var(--primary);
+}
+
+header .menu li.participar {
+    margin: auto 0 auto 15px;
+    box-shadow: none;
+    max-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+header .menu li a.btn-participar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 25px;
+    max-height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: var(--primary);
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.cta.active .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media(max-width: 767px) {
+    header .menu li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-bottom: none;
+        line-height: 20px;
+        height: auto;
+        font-weight: 400;
+        position: relative;
+        font-size: 17px;
+    }
+
+    header .menu li:nth-last-child(n) a {
+        color: var(--white);
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .cta span {
+        color: #fff;
+    }
+
+    .hover-underline-animation:after {
+        background-color: #fff;
+    }
+}

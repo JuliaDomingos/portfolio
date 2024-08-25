@@ -1,0 +1,37 @@
+footer {
+    background-color: var(--white);
+    width: 100%;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin: 0;
+}
+
+footer .social-icons li {
+    margin: 0 15px;
+}
+
+footer .social-icons a {
+    display: block;
+    width: min-content;
+    font-size: 1.5rem;
+    transition: .2s all;
+}
+
+footer .social-icons a i {
+    color: var(--primary);
+}
+
+.copy-content {
+    background-color: #E6E7EB;
+    padding: 5px 0;
+}
+
+.copy-content small {
+    font-size: 12px;
+}

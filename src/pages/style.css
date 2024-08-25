@@ -1,0 +1,136 @@
+body h1,
+body h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.home h1,
+.sobre h1,
+.contato h1 {
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.home h2,
+.sobre h2,
+.contato h2 {
+    color: var(--secondary);
+    font-size: 30px;
+}
+
+.home h2 span,
+.sobre h2 span,
+.contato h2 span {
+    color: var(--primary);
+}
+
+.home h1 span,
+.sobre h1 span,
+.contato h1 span {
+    color: var(--primary);
+}
+
+.dark-mode .home h1 span,
+.dark-mode .sobre h2 span,
+.dark-mode .contato h2 span,
+body.dark-mode h2 {
+    color: var(--tertiary);
+}
+
+
+.home p,
+.sobre p,
+.design p,
+.video p,
+.contato p {
+    color: var(--quinary);
+}
+
+.sobre .col-md-7 img {
+    padding: 3rem 0;
+    width: 400px;
+    max-width: 100%;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.design h1 span,
+.video h1 span {
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.dark-mode .design h1 span,
+.dark-mode .video h1 span {
+    color: var(--quaternary);
+}
+
+
+.dark-mode .swiper .design img,
+.dark-mode .swiper .video img {
+    border-radius: 30px;
+    box-shadow: -3px 3px 3px #0B3659;
+    margin: 10px 5px;
+    aspect-ratio: 6/5;
+}
+
+.design .swiper img,
+.video .swiper img {
+    border-radius: 30px;
+    box-shadow: -3px 3px 3px grey;
+    margin: 10px 5px;
+    aspect-ratio: 6/5;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 34px;
+}
+
+.dark-mode .icons {
+    color: #fff;
+}
+
+.video iframe {
+    width: 100%;
+    aspect-ratio: 6/5;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+@media(min-width: 992px) {
+    .home {
+        position: relative;
+    }
+
+    .image-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 57.5%;
+        height: calc(100vh - 130px);
+        overflow: hidden;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        min-height: calc(100vh - 130px);
+        /* object-fit: cover; */
+    }
+}
+
+@media(min-width:1400px) {
+    .image-container {
+        width: 50%;
+    }
+}
