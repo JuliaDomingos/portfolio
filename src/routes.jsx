@@ -7,7 +7,7 @@ import { Contato } from './pages/Contato'
 import { NotFound } from './pages/NotFound'
 import { DesignDetail } from "./components/DesignDetail";
 
-export const AppRoutes = () => {
+export const Router = () => {
   return (
     <>
       <BrowserRouter>
