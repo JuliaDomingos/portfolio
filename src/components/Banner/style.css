@@ -17,7 +17,7 @@
 }
 
 .swiper-slide {
-    aspect-ratio: 16 / 9;
+    /* aspect-ratio: 16 / 9; */
 }
 
 .swiper-slide img {
