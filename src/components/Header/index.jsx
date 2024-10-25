@@ -24,7 +24,7 @@ export const Header = () => {
                 <div className='row'>
                     <div className='col-md-3 col-6 justify-content-center align-items-center h-100 my-auto'>
                         <Link to='/'>
-                            <img src={logoSrc} alt="Logo da empresa" className='img-fluid logo' />
+                            <img width={'auto'} height={'auto'} src={logoSrc} alt="Logo da empresa" className='img-fluid logo' />
                         </Link>
                     </div>
                     <div className='col-md-9 col-6 my-auto'>

@@ -1,9 +1,15 @@
 .banner {
     background-color: #fff;
+    height: 100%;
 }
 
 .banner>* {
+    height: 100%;
     color: #fff;
+}
+
+.banner *{
+    height: 100%;
 }
 
 .swiper {
