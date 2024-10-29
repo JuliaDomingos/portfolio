@@ -50,6 +50,12 @@
     font-weight: 900;
 }
 
+@media(max-width: 1366px) {
+    .grid-item:after {
+        left: 240px;
+    }
+}
+
 @media(max-width:992px) {
     .grid-item::after {
         left: 55%;
@@ -61,8 +67,8 @@
     }
 }
 
-@media(min-width: 1400px){
-    .grid-item::after{
+@media(min-width: 1400px) {
+    .grid-item::after {
         left: 340px;
     }
 }
