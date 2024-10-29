@@ -60,3 +60,9 @@
         aspect-ratio: 1/1;
     }
 }
+
+@media(min-width: 1400px){
+    .grid-item::after{
+        left: 340px;
+    }
+}

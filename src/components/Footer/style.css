@@ -35,3 +35,9 @@ footer .social-icons a i {
 .copy-content small {
     font-size: 12px;
 }
+
+@media(min-width: 1400px){
+    .copy-content small{
+        font-size: 20px;
+    }
+}

@@ -21,12 +21,16 @@ export const Design = () => {
                                 Aqui você encontra alguns dos meus projetos. Cada um é uma história visual única, uma colaboração dedicada à expressão de cada cliente. Meu trabalho reflete a essência de cada marca. Explore como transformei ideias em realidade visual, criando conexões autênticas e impactantes.
                             </p>
                         </div>
-                        <div className="col-12">
-                            <ScriptSlide />
-                        </div>
                     </div>
                 }>
                 </Section>
+                <Section content="container-fluid" conteudo={
+                    <div className="row">
+                        <div className="col-12 align-self-end">
+                            <ScriptSlide />
+                        </div>
+                    </div>
+                }></Section>
             </main>
             <Footer />
         </>

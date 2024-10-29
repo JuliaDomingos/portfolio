@@ -34,7 +34,7 @@ export const Contato = () => {
             <main className="contato">
                 <Section content="container" conteudo={
                     <div className="row py-5">
-                        <div className="col-md-6">
+                        <div className="col-lg-6 col-xl-12">
                             <h1 className="mb-0">Tem algum projeto legal?</h1>
                             <h2>
                                 Me manda um <span>E-mail!</span>
@@ -50,7 +50,7 @@ export const Contato = () => {
                                 </a>
                             </p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6 col-xl-12">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="d-flex flex-column form-group">
                                     <label className="mb-0" htmlFor="form_name">Nome*</label>

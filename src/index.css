@@ -28,7 +28,7 @@
 }
 
 body main {
-  min-height: calc(100vh - 130px);
+  min-height: calc(100vh - 130px - 34px);
 }
 
 body,

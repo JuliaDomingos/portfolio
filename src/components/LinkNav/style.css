@@ -89,6 +89,16 @@ header .menu li a.btn-participar {
     transform-origin: bottom left;
 }
 
+@media(min-width:1400px) {
+    .cta span {
+        font-size: 32px;
+    }
+
+    header .menu li a{
+        font-size: 40px;
+    }
+}
+
 @media(max-width: 767px) {
     header .menu li {
         display: block;
